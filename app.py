@@ -11,6 +11,13 @@ import time
 import os
 from datetime import datetime
 
+st.markdown("""
+    <style>
+        .stApp { background-color: #0f1117; color: #ffffff; }
+        h1, h2, h3, p, label { color: #ffffff !important; }
+    </style>
+""", unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="Real-Time Object Detection",
     page_icon="🎯",
