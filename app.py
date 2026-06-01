@@ -23,7 +23,7 @@ st.markdown("""
 
 st.set_page_config(
     page_title="Real-Time Object Detection",
-    page_icon="🎯",
+    page_icon=None,
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -173,7 +173,7 @@ st.sidebar.write(
     "Use the sidebar to choose your model, adjust confidence filtering, and switch between image, video, or webcam detection modes."
 )
 
-st.title("🎯 Real-Time Object Detection")
+st.title("Real-Time Object Detection")
 st.markdown(
     "Detect objects with YOLOv8, visualize results instantly, and monitor analytics over every session."
 )
