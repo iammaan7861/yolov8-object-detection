@@ -13,9 +13,11 @@ from datetime import datetime
 
 st.markdown("""
     <style>
-        .stApp { background-color: #ffffff; color: #000000; }
-        h1, h2, h3, p, label, .stMarkdown { color: #000000 !important; }
-        .stTabs [data-baseweb="tab"] { color: #000000 !important; }
+        .stApp { background-color: #0f1117; color: #ffffff; }
+        .stMainBlockContainer { background-color: #0f1117; }
+        h1, h2, h3, p, label, .stMarkdown { color: #ffffff !important; }
+        .stTabs [data-baseweb="tab"] { color: #ffffff !important; }
+        [data-testid="stSidebar"] { background-color: #1a1c24; }
     </style>
 """, unsafe_allow_html=True)
 
