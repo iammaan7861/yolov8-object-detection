@@ -13,8 +13,9 @@ from datetime import datetime
 
 st.markdown("""
     <style>
-        .stApp { background-color: #0f1117; color: #ffffff; }
-        h1, h2, h3, p, label { color: #ffffff !important; }
+        .stApp { background-color: #ffffff; color: #000000; }
+        h1, h2, h3, p, label, .stMarkdown { color: #000000 !important; }
+        .stTabs [data-baseweb="tab"] { color: #000000 !important; }
     </style>
 """, unsafe_allow_html=True)
 
@@ -23,37 +24,6 @@ st.set_page_config(
     page_icon="🎯",
     layout="wide",
     initial_sidebar_state="expanded"
-)
-
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background: #f5f7fb;
-    }
-    .stSidebar .css-ng1t4o.e1fqkh3o3 {
-        background-color: #ffffff;
-    }
-    .css-1d391kg {
-        color: #0f172a;
-    }
-    .css-1kyxreq {
-        color: #0f172a;
-    }
-    .stButton>button {
-        background-color: #0f172a;
-        color: #ffffff;
-    }
-    .stButton>button:hover {
-        background-color: #1e293b;
-        color: #ffffff;
-    }
-    .css-17lntkn {
-        color: #0f172a;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
 )
 
 MODEL_OPTIONS = {
